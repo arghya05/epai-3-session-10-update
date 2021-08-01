@@ -37,14 +37,14 @@ An attention based Seq2Seq model has three component -
 
       - Download the GloVe embeddings. I have downloaded the embeddings from torchtext.vocab. The shape of GloVe vectors used in code in (40000,100) meaning it contains embeddings for 40K words with vector size of 100.
 
-      ![Attention based Seq2Seq Model](https://github.com/SachinDangayach/END2.0/blob/main/Session10/images/i_2.PNG)
+     
 
       - Modify Lang class by adding a new variable named embedding. For, SOS_token and EOS_token and the tensor of Zeros.
 
       - Write a helper function get_vector to return the GloVe embedding vector for any word added into the Language vocabulary so that we have finally glove embeddings for all the words in the vocabulary. Also in case, there is no GloVe embedding found for any given word, add a zero tensor for shape (1, 100) to the embedding tensor. Refer the code below.
       - GloVe stands for global vectors for word representation. It is an unsupervised learning algorithm developed by Stanford for generating word embeddings by aggregating global word-word co-occurrence matrix from a corpus. The resulting embeddings show interesting linear substructures of the word in vector space
 
-      ![GloVe embeddings](https://github.com/SachinDangayach/END2.0/blob/main/Session10/images/i_3.PNG)
+    
 
     - Follow the sequence of already existing code to get the dataset, encoder, decoder and attention class.
 
@@ -52,7 +52,7 @@ An attention based Seq2Seq model has three component -
 
     - We instantiate the model classes and load the pretrained embeddings to the encoder model embeddings layer as mentioned in the code below -
 
-    ![Load pretrained embeddings](https://github.com/SachinDangayach/END2.0/blob/main/Session10/images/i_4.PNG)
+ 
 
     - Train the model. Below is the snapsot of training log-
 
