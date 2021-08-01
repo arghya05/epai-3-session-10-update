@@ -5,7 +5,8 @@
 
 ## Replace the embeddings of this session's code with GloVe embeddings and explain the difference between -
 
-
+-what is glove embedding 
+-GloVe stands for global vectors for word representation. It is an unsupervised learning algorithm developed by Stanford for generating word embeddings by aggregating global -word-word co-occurrence matrix from a corpus. The resulting embeddings show interesting linear substructures of the word in vector space
 
 
 
